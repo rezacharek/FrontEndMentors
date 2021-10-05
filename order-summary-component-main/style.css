@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+}
+h1 {
+    font-size: 15px;
+}
+
+#main {
+    background-color: white;
+    width: 450px;
+    height: 690px;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+#order_summary {
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    padding: 25px 45px 15px 45px;
+    size: 20;
+}
+
+#description {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    padding: 15px 45px 15px 45px;
+    size: 16px;
+}
+
+#music_sign {
+    /* background-image: url("images/icon-music.svg"); */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#info {
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+#change_id {
+    padding-top: 35px;
+    padding-left: 60px;
+    font-size: 14px;
+    color:hsl(245, 75%, 52%);
+}
+
+#annual_plan_ {
+    color: hsl(223, 47%, 23%);
+}
+
+#cost {
+    color: hsl(224, 23%, 55%);
+}
+
+#annual_plan {
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+
+#first_button_div {
+    display: flex;
+    justify-content: center;
+}
+
+#second {
+    display: flex;
+    justify-content: center;
+}
+
+#payment_button {
+    margin: 0 auto;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#cancel_button {
+    margin: 0 auto;
+    background-color: white;
+    border: none;
+    color: hsl(224, 23%, 55%);
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#top_image {
+    background-image: url('images/illustration-hero.svg');
+    width: 450px;
+    height: 220px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}​
+
