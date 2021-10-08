@@ -17,6 +17,28 @@ background: linear-gradient(25deg, hsl(273, 75%, 66%) 0%, hsl(240, 73%, 65%) 100
     border-radius: 20px;
 }
 
-#left-side {
-    
+#left_side {
+    background-color: grey;
+    width: 460px;
+    background-image: url("./images/bg-pattern-desktop.svg");
+}
+
+#right_side {
+    width: 460px;
+    padding-left: 20px;
+    padding-top: 35px;
+}
+
+.accordion {
+    cursor: pointer;
+    padding: 7px 5px;
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 350px;
+    text-align: left;
+}
+
+.panel {
+    display: none;
 }
